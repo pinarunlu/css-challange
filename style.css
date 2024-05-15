@@ -19,10 +19,18 @@ body {
 
 .c1 {
     background: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
 }
 
 .c2 {
     background: lightblue;
+   
+
+   
 }
 
 .c3 {
@@ -52,21 +60,29 @@ Horizontally and vertically.
 
 .c1 {}
 
-.c1 h1 {}
+.c1 h1 {
+   
+}
 
 
 /* 2 */
 
 .c2 {}
 
-.c2 h1 {}
+.c2 h1 {
+padding-bottom: 175px;
+padding-top: 175px;
+text-align: center;
+}
 
 
 /* 3 */
 
 .c3 {}
 
-.c3 h1 {}
+.c3 h1 {
+  
+}
 
 
 /* 4 */
