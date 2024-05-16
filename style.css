@@ -35,10 +35,13 @@ body {
 
 .c3 {
     background: lightgreen;
+    display: grid;
+        place-items: center;
 }
 
 .c4 {
     background: khaki;
+    
 }
 
 .c5 {
@@ -78,29 +81,47 @@ text-align: center;
 
 /* 3 */
 
-.c3 {}
+.c3 {
+    
+}
 
 .c3 h1 {
-  
+
 }
 
 
 /* 4 */
 
-.c4 {}
+.c4 {
+    position: relative;
+    }
 
-.c4 h1 {}
+
+.c4 h1 {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
 
 
 /* 5 */
 
-.c5 {}
+.c5 {
+    display: table;}
 
-.c5 h1 {}
+.c5 h1 {
+    display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+}
 
 
 /* 6 */
 
 .c6 {}
 
-.c6 h1 {}
+.c6 h1 {
+    line-height: 400px;
+        text-align: center;
+}
